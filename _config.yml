@@ -1,0 +1,65 @@
+# Site settings
+title: Jess Young
+email: jess@soijen.com
+description: trail runner, outdoor adventurer
+lang: ["en", "es"]
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://soijen.com/jjoven" # the base hostname & protocol for your site, e.g. http://example.com
+author: jjoven
+permalink: /:title/
+google_maps_api_key:
+
+# Build settings
+markdown: kramdown
+
+include: ["_pages"]
+
+defaults:
+  #languages
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+      baseurl: ""
+  -
+    scope:
+      path: "es"
+    values:
+      lang: "es"
+      baseurl: "/es/"
+
+#menu translations
+t:
+  en:
+    home:
+      name: "Home"
+      url: "/"
+    about:
+      name: "About"
+      url: "/about/"
+    blog:
+      name: "Blog"
+      url: "/blog/"
+    projects:
+      name: "Projects"
+      url: "/projects/"
+    contact:
+      name: "Contact"
+      url: "/#contact"
+  es:
+      home:
+        name: "Inicio"
+        url: "/es/"
+      about:
+        name: "Sobre Nosotros"
+        url: "/es/about/"
+      blog:
+        name: "Blog"
+        url: "/es/blog/"
+      projects:
+        name: "Proyectos"
+        url: "/es/projects/"
+      contact:
+        name: "Contacto"
+        url: "/es/#contact"

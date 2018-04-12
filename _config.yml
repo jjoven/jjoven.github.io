@@ -36,14 +36,17 @@ t:
       name: "Home"
       url: "/"
     about:
-      name: "About"
+      name: "CV"
       url: "/about/"
     blog:
-      name: "Blog"
-      url: "/blog/"
+      name: "Thoughts"
+      url: "/blog/index.html"
     projects:
       name: "Projects"
       url: "/projects/"
+    running:
+      name: "Running"
+      url: "/running/"
     contact:
       name: "Contact"
       url: "/#contact"
@@ -52,14 +55,17 @@ t:
         name: "Inicio"
         url: "/es/"
       about:
-        name: "Sobre Nosotros"
+        name: "CV"
         url: "/es/about/"
       blog:
-        name: "Blog"
+        name: "Pensamientos"
         url: "/es/blog/"
       projects:
         name: "Proyectos"
         url: "/es/projects/"
+      running:
+        name: "Correr"
+        url: "/es/running/"
       contact:
         name: "Contacto"
-        url: "/es/#contact"
+        url: "/#contact"

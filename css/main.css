@@ -71,6 +71,9 @@ h1 {
   letter-spacing: 0.2em;
   margin-bottom: 1rem;
 }
+h2 {
+  letter-spacing: 0.2em;
+}
 p {
   color: #222;
   padding-bottom: 1.5em;
@@ -110,7 +113,7 @@ textarea {
 .action-button {
   margin-top: 2em;
 }
-.action-button a{
+.action-button a {
     border: 5px solid #B4570A;
     border-radius: 5px;
     box-sizing: border-box;
@@ -123,7 +126,6 @@ textarea {
 .action-button a:hover, .action-button a:active {
   opacity: 1;
 }
-
 .input-form {
   border: 2px solid #066C6C;
   border-radius: 4px;
@@ -131,10 +133,10 @@ textarea {
   display: block;
   font-family: inherit;
   margin: 4vh 0;
+  max-width: 900px;
   padding: 1vh 1vh;
   text-align: left;
   width: 100%;
-  max-width: 900px;
 }
 .input-form:focus {
   border: 2px dashed #066C6C;
@@ -308,7 +310,7 @@ textarea {
   height: 100vh;
 }
 .hero-interests {
-  background-color: rgba(34, 34, 34, 0.3);
+  background-color: rgba(34, 34, 34, 0.4);
 }
 .hero-skills p {
   padding-bottom: 0;
@@ -353,12 +355,17 @@ textarea {
   font-weight: bold;
   font-size: 1rem;
 }
+
 .small-col h3 {
   font-size: 1rem;
   font-style: italic;
 }
+.skill-col {
+  flex: 1 1 auto;
+}
 .star-col {
   padding-left: 1em;
+  flex: 1 1 auto;
 }
 .two-col {
   align-items: center;
@@ -414,7 +421,7 @@ textarea {
 
 /* PAGE STYLES */
 .page {
-  margin: 10vh 30vh 10vh 20vh;
+  margin: 10vh auto 15vh;
   max-width: 980px;
   width: 85vw;
 }
@@ -533,24 +540,41 @@ textarea {
   list-style: none;
   margin: 0;
 }
-
-@media (max-width: 1150px) {
+@media (max-width: 1400px) {
   .full-hero, .page {
     padding: 8vh 20vh 8vh 10vh;
   }
-}
-@media (max-width: 900px) {
-  .post-aside {
-    display: none;
+  .hero-home {
+    background-position: bottom right;
   }
-  .top-shortcut {
+}
+@media (max-width: 1100px) {
+  .hero-skills > .two-col {
+    flex-direction: column;
+  }
+  .skill-col {
+    width: 25vh;
+  }
+  .star-col {
+    padding-left: 4em;
+  }
+  .auto-col, .small-col {
+    margin-bottom: 2em;
+  }
+}
+@media (max-width: 950px) {
+  .post-aside, .top-shortcut {
     display: none;
   }
   html {
     padding: 0;
   }
+  h1 {
+    margin-bottom: 0;
+    padding-bottom: .1em;
+  }
   a:active {
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.1);
   }
 
   /* HEADER STYLES */
@@ -643,23 +667,26 @@ textarea {
   .hero-profile .two-col, .hero-interests .two-col {
     align-items: center;
   }
-  .auto-col, .small-col {
-    margin-bottom: 2em;
-  }
-  .img-col {
-    display: inline-block;
-  }
-  .two-col {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .two-col .skill-ratings {
-    flex-direction: row;
-  }
-  .left-col, .right-col {
-    padding: 0;
-    margins: 0;
-  }
+
+  /* COLUMN STYLES */
+.two-col .skill-ratings {
+  flex-direction: row;
+}
+.auto-col, .small-col {
+  margin-bottom: 2em;
+}
+.img-col {
+  display: inline-block;
+}
+.two-col {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.left-col, .right-col {
+  padding: 0;
+  margins: 0;
+}
+
   /* BLOG STYLES */
   .post-byline {
     display: block;
@@ -674,5 +701,18 @@ textarea {
   }
   .social-list {
     display: block;
+  }
+}
+@media (max-width: 500px) {
+  .star-col {
+    padding-left: 0.5em;
+  }
+  .full-hero, .page {
+      padding: 8vh 5vh;
+  }
+}
+@media (max-width: 350px) {
+  .skill-col {
+    width: auto;
   }
 }

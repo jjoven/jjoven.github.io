@@ -40,7 +40,7 @@ t:
       url: "/about/"
     blog:
       name: "Thoughts"
-      url: "/blog/index.html"
+      url: "/blog/"
     projects:
       name: "Projects"
       url: "/projects/"

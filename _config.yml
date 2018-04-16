@@ -4,7 +4,7 @@ email: jess@soijen.com
 description: trail runner, outdoor adventurer
 lang: ["en", "es"]
 #baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://soijen.com/jjoven" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://jessyoung.ninja" # the base hostname & protocol for your site, e.g. http://example.com
 author: jjoven
 permalink: /:title/
 google_maps_api_key:

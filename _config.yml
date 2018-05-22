@@ -1,17 +1,14 @@
 # Site settings
 title: Jess Young
 email: jess@soijen.com
-description: trail runner, outdoor adventurer
+description: Jess Young's personal website
 lang: ["en", "es"]
-#baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jessyoung.ninja" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://jessyoung.ninja"
 author: jjoven
 permalink: /:title/
 google_maps_api_key:
 
 # Build settings
-markdown: kramdown
-
 include: ["_pages"]
 
 defaults:
@@ -38,9 +35,6 @@ t:
     about:
       name: "CV"
       url: "/about/"
-    blog:
-      name: "Thoughts"
-      url: "/blog/"
     projects:
       name: "Projects"
       url: "/projects/"
@@ -57,9 +51,6 @@ t:
       about:
         name: "CV"
         url: "/es/about/"
-      blog:
-        name: "Pensamientos"
-        url: "/es/blog/"
       projects:
         name: "Proyectos"
         url: "/es/projects/"

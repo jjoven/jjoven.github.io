@@ -1,10 +1,11 @@
 # Site settings
 title: Jess Young
 email: jess@soijen.com
-description: Jess Young's personal website
+description: Jess Young
 lang: ["en", "es"]
-url: "http://jessyoung.ninja"
-author: jjoven
+url: "https://jessyoung.ninja"
+author: Jess Young
+twitter_username: J_joven_
 permalink: /:title/
 google_maps_api_key:
 
@@ -35,9 +36,12 @@ t:
     about:
       name: "CV"
       url: "/about/"
-    projects:
-      name: "Projects"
-      url: "/projects/"
+    portfolio:
+      name: "Portfolio"
+      url: "/portfolio/"
+    blog:
+      name: "Blog"
+      url: "/blog/"
     running:
       name: "Running"
       url: "/running/"
@@ -51,12 +55,15 @@ t:
       about:
         name: "CV"
         url: "/es/about/"
-      projects:
-        name: "Proyectos"
-        url: "/es/projects/"
+      portfolio:
+        name: "Portafolio"
+        url: "/es/portfolio/"
+      blog:
+        name: "Blog"
+        url: "/es/blog/"
       running:
         name: "Correr"
         url: "/es/running/"
       contact:
         name: "Contacto"
-        url: "/#contact"
+        url: "/es/#contact"

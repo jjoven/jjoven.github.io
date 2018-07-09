@@ -5,12 +5,18 @@ description: Jess Young
 lang: ["en", "es"]
 url: "https://jessyoung.ninja"
 author: Jess Young
-twitter_username: J_joven_
+twitter_username: _jjoven_
+facebook_username: jessica.young.5492
+instagram_username: soijen_
+linkedin_username: jessmyoung
 permalink: /:title/
-google_maps_api_key:
 
 # Build settings
 include: ["_pages"]
+
+collections:
+  portfolio:
+    output: false
 
 defaults:
   #languages

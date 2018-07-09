@@ -1,5 +1,5 @@
 ---
-title: Jess Young | Blog
+title: Blog | Jess Young
 description: Blog
 layout: default
 permalink: /blog/
@@ -7,7 +7,7 @@ ref: blog
 ---
 <div class="page">
   <h1>Blog</h1>
-  <p>Coming soon</p>
+  <p>Browse recent posts below or <a href="/tags/" title="browse by topic">browse by tag</a>.</p>
   <div class="blog-previews">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
@@ -21,7 +21,9 @@ ref: blog
         </div>
       </header>
       {{ post.excerpt }}
-      <a href="{{ post.url }}">Read more...</a>
+      <div class="action-button">
+        <a href="{{ post.url }}">Read more...</a>
+      </div>
     </div>
   {% endfor %}
   </div>

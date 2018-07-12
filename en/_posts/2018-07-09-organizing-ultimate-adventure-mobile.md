@@ -23,6 +23,8 @@ It's worth reiterating - wet gear is the biggest challenge on this list. Especia
 
 Here are some pictures from our current set-up. Read on for my favorite tips and tricks.
 
+(Pictures coming soon)
+
 <img src="/assets/images/organizing-ultimate-adventure-mobile/charlevoix-camp.jpg" alt="Car camping in Charlevoix">
 <div class="caption">Car camping in Charlevoix</div>
 

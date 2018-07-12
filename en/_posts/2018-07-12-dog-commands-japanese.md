@@ -9,7 +9,7 @@ ref: dog-commands-japanese
 tags:
   - languages
 ---
-Last February we adopted Kuma - a Border Collie & German Shephard mix from Alabama. Kuma means bear in Japanese (can you see the resemblance?), so we thought it only appropriate to train her in Japanese.
+Last February we adopted Kuma - a Border Collie & German Shephard mix from Alabama. Kuma means bear in Japanese (can you see the resemblance?), so we thought it only appropriate to teach her commands in Japanese.
 
 <h2>Basic Commands</h2>
 - *iiko* - good girl/boy

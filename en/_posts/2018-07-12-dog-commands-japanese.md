@@ -32,7 +32,7 @@ Last February we adopted Kuma - a Border Collie & German Shephard mix from Alaba
 
 And now for a lot of cute puppy pictures.
 
-<img src="/assets/images/kuma/bonita.jpg" alt="First family photo with Kuma">
+<img src="/assets/images/kuma/family.jpg" alt="First family photo with Kuma">
 <img src="/assets/images/kuma/hiding.jpg" alt="Kuma hiding">
 <img src="/assets/images/kuma/car.jpg" alt="Kuma ready for a road trip">
 <div class="portrait-photo">

@@ -64,9 +64,6 @@ t:
       portfolio:
         name: "Portafolio"
         url: "/es/portfolio/"
-      blog:
-        name: "Blog"
-        url: "/es/blog/"
       running:
         name: "Correr"
         url: "/es/running/"

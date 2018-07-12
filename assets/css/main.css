@@ -86,20 +86,26 @@ p {
   padding-bottom: 1.5em;
   text-align: justify;
 }
-.anchor {
-  opacity: 0;
-}
-.bullets {
-  margin-bottom: 1em;
+ul {
+  margin-bottom: 1.5em;
   padding: 0 2em;
 }
-.bullets li {
+li {
   list-style: none;
 }
-.bullets li:before {
+li:before {
   content: "\f101";
   font-family: FontAwesome;
   margin-right: 1em;
+}
+.anchor {
+  opacity: 0;
+}
+.caption {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 5em;
+  text-align: center;
 }
 .content-container {
   flex: 1 1 auto;
@@ -182,10 +188,14 @@ textarea {
   flex: 0 1 auto;
   text-align: right;
   vertical-align: center;
+  padding: 0;
 }
 .header-nav > li {
   display: block;
   margin-bottom: 1em;
+}
+.header-nav > li:before {
+  content: none;
 }
 .header-nav a {
   color: #555;
@@ -208,9 +218,15 @@ textarea {
   font-size: 0rem;
   visibility: hidden;
 }
+.langselect ul {
+  padding: 0;
+}
 .langselect li {
     display: inline-block;
     padding: 1px;
+}
+.langselect li:before {
+  content: none;
 }
 .nav-links a, .show-mobile-menu {
   font-size: 0.8rem;
@@ -406,6 +422,9 @@ textarea {
 .social-list li {
   display: inline-block;
 }
+.social-list li:before {
+  content: none;
+}
 .share-bar {
   margin: 2em 0;
 }
@@ -451,33 +470,41 @@ textarea {
   height: 50vh;
   margin-bottom: 1.5em;
 }
+.blog-title-list {
+  padding: 0;
+}
+.blog-title-list li:before{
+  content: none;
+}
 .google-map {
   background-position: center;
   text-align: center;
-  height:50vh;;
+  height: 50vh;
+}
+.portrait-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .hero-posts {
   background-position: center center;
+  height: 85vh;
 }
 .post {
   width: 100%;
 }
-.post p {
-  margin-bottom: 1em;
+.post li {
+  line-height: 2;
+  margin: 0;
 }
-.post .figure {
-  margin: 1.5em 0;
-  text-align: center;
-}
-.post .img-caption {
-  font-size: 0.8em;
+.post .quote {
+  letter-spacing: 0.1em;
+  line-height: 2;
+  font-size: 1.3rem;
   font-style: italic;
-}
-.post .image {
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 0.5em;
-  width: 100%;
+  margin: 2em 2em 1em 2em;
+  text-align: justify;
 }
 .post .post-header {
   margin-bottom: 2.5em;
@@ -489,6 +516,7 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
   float: right;
+  clear: both;
   font-size: 0.8em;
   margin: 0 0 2em 2em;
   overflow-x: hidden;
@@ -500,6 +528,10 @@ textarea {
 }
 .post-aside li {
   margin-bottom: 1em;
+}
+.post image {
+  padding: 0;
+  margin: 0;
 }
 .post-aside a {
   color: #555;
@@ -614,12 +646,6 @@ textarea {
   .header-nav {
     padding: 0;
   }
-  /*.header-logo {
-    padding-left: 2em;
-    padding-top: 1em;
-    position: relative;
-    text-align: left;
-  }*/
   .nav-links a {
     font-size: 3.25vw;
   }
@@ -651,6 +677,9 @@ textarea {
   .header-nav > li {
     display: block;
     margin-top: 1.5em;
+  }
+  .header-nav > li:before {
+    content: none;
   }
   .header-nav li ~ li {
     border: 0;
@@ -743,6 +772,9 @@ textarea {
   .full-hero < h1 {
     font-size: 3em;
   }
+  .hero-posts {
+    height: 45vh;
+  }
   .line {
   visibility: hidden;
   }
@@ -750,6 +782,15 @@ textarea {
     content: '\A';
     white-space: pre;
   }
+  .post .quote {
+      letter-spacing: 0.05em;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+    }
+    ul {
+      padding: 0;
+    }
 }
 @media (max-width: 350px) {
   .skill-col {

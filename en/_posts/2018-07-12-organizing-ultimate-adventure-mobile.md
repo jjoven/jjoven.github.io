@@ -9,6 +9,7 @@ ref:
 tags:
   - digital-nomad
   - outdoors
+  - dog-friendly
 ---
 Don't we all dream of #Vanlife? While we long of someday having the luxurious headroom and space of a Sprinter van, for now we've learned to hack ever corner of our Subaru into the perfect adventure-mobile.
 

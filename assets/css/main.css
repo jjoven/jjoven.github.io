@@ -74,17 +74,17 @@ h1 {
 h2 {
   letter-spacing: 0.2em;
 }
+p {
+  color: #222;
+  padding-bottom: 1em;
+  text-align: justify;
+}
 img {
   background-position: center;
   background-size: cover;
-  margin: 2em 0 0 0;
+  padding-top: 3em;
   text-align: center;
   width: 100%;
-}
-p {
-  color: #222;
-  padding-bottom: 1.5em;
-  text-align: justify;
 }
 ul {
   margin-bottom: 1.5em;
@@ -104,7 +104,6 @@ li:before {
 .caption {
   font-size: 0.8em;
   font-style: italic;
-  margin-bottom: 5em;
   text-align: center;
 }
 .content-container {
@@ -448,6 +447,7 @@ textarea {
 }
 .page h2 {
   font-size: 1.5em;
+  letter-spacing: 0.1em;
   margin: 2em 0 1em;
 }
 .page h4 {
@@ -485,7 +485,11 @@ textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1.5em;
   width: 50%;
+}
+.portrait-photo .caption {
+  padding-top: 1em;
 }
 .hero-posts {
   background-position: center center;
@@ -564,11 +568,6 @@ textarea {
 .post-nav {
   margin-top: 4em;
   text-align: center;
-}
-.post-stats li {
-  line-height: 2;
-  list-style: none;
-  margin: 0;
 }
 
 /* PORTFOLIO STYLES */

@@ -36,6 +36,8 @@ Here are some pictures from our current set-up. Read on for my favorite tips and
 </div>
 <img src="/assets/images/organizing-ultimate-adventure-mobile/net.jpg" alt="Cargo nets in car">
 <div class="caption">Cargo nets are the best to keep miscellaneous things in place. We use them to stuff our backpacks and hydration packs. Also having the back seats down makes all this space accessible.</div>
+<img src="/assets/images/organizing-ultimate-adventure-mobile/bed-side.jpg" alt="Dog bed inside car">
+<div class="caption">Guess who takes up the most space in the car.</div>
 <img src="/assets/images/organizing-ultimate-adventure-mobile/side-plastic.jpg" alt="Plastic storage containers for wet gear">
 <div class="caption">We separate our paddling gear in case it gets wet. Kuma gets her own bin of dogssentials.</div>
 <img src="/assets/images/organizing-ultimate-adventure-mobile/glove.jpg" alt="Store electronics in glove compartment">

@@ -1,17 +1,13 @@
 {% assign posts=site.posts | where:"lang", page.lang %}
 {% for post in posts %}
  {% if post.tags contains "jekyll" %}
-  <div class="tag-posts">
-    <a name="jekyll" class="anchor"><i class="fa fa-anchor" aria-hidden="true"></i></a>
-    <h2 class="tag-header">Jekyll</h2>
-    <div class ="blog-posts by-tag">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <div>
-        {{ post.description }}
-      </div>
-      <div class="post-tags">
-        {{ post.tags | join: ' | '}}
-      </div>
+ <div class ="blog-posts by-tag">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <div>
+      {{ post.description }}
+    </div>
+    <div class="post-tags">
+      {{ post.tags | join: ' | '}}
     </div>
   </div>
   {% endif %}

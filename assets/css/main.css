@@ -594,6 +594,15 @@ textarea {
 .tag-cloud {
   margin-bottom: 1em;
 }
+.page > .tag-cloud {
+  border: 3px dashed #066C6C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 1em;
+  margin-bottom: 5em;
+  max-width: 50vh;
+  text-align: center;
+}
 
 @media (max-width: 1400px) {
   .full-hero, .page {
@@ -786,10 +795,10 @@ textarea {
       margin-left: 0;
       margin-right: 0;
       padding: 0;
-    }
-    ul {
-      padding: 0;
-    }
+  }
+  ul {
+    padding: 0;
+  }
 }
 @media (max-width: 350px) {
   .skill-col {

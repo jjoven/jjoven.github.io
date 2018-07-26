@@ -686,9 +686,6 @@ textarea {
     display: block;
     margin-top: 1.5em;
   }
-  .header-nav > li:before {
-    content: none;
-  }
   .header-nav li ~ li {
     border: 0;
     padding: 0;
@@ -752,6 +749,7 @@ textarea {
   .post-byline {
     display: block;
     margin-bottom: 1em;
+    margin-right: 0;
   }
   .page h1 {
     font-size: 2em;
@@ -773,6 +771,9 @@ textarea {
   }
   .full-hero, .page {
       padding: 8vh 5vh;
+  }
+  .page {
+    padding-top: 0;
   }
   .full-hero .hero-home {
     line-height: 2;

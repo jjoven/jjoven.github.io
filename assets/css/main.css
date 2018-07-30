@@ -222,7 +222,6 @@ textarea {
 }
 .langselect li {
     display: inline-block;
-    padding: 1px;
 }
 .langselect li:before {
   content: none;

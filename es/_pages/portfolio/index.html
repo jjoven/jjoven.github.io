@@ -10,7 +10,7 @@ ref: portfolio
   <h2>Una colección de algunos de mis proyectos favoritos</h2>
 </div>
 <div class="page">
-  {% assign portfolio=site.portfolio %}
+  {% assign portfolio = site.portfolio | sort: "date" | reverse %}
   {% for portfolio-item in portfolio %}
   <div class="two-col blog-posts portfolio-item">
     <div class="small-col left-col portfolio-image">
@@ -19,7 +19,7 @@ ref: portfolio
     <div class="large-col right-col">
       <h2><a href="{{ portfolio-item.external-link }}" title="{{ portfolio-item.title_es }}" target="_blank">{{ portfolio-item.title_en }}</a></h2>
       <h3 class="inline"><i class="fa fa-wrench" style="color:#B4570A"></i></h3>{{ portfolio-item.technologies }}</br>
-      <h3 class="inline"><i class="fa fa-calendar" style="color:#B4570A"></i></h3>{{ portfolio-item.year }}</br>
+      <h3 class="inline"><i class="fa fa-calendar" style="color:#B4570A"></i></h3>{{ portfolio-item.date | date: "%Y" }}</br>
       <h3 class="inline"><i class="fa fa-info-circle" style="color:#B4570A"></i></h3>{{ portfolio-item.description_es }}</br>
     </div>
   </div>

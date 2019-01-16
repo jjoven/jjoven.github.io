@@ -20,7 +20,7 @@ ref: portfolio
       <h2><a href="{{ portfolio-item.external-link }}" title="{{ portfolio-item.title_en }}" target="_blank">{{ portfolio-item.title_en }}</a></h2>
       <h3 class="inline"><i class="fa fa-wrench" style="color:#B4570A"></i></h3>{{ portfolio-item.technologies }}</br>
       <h3 class="inline"><i class="fa fa-calendar" style="color:#B4570A"></i></h3>{{ portfolio-item.date | date: "%Y" }}</br>
-      <h3 class="inline"><i class="fa fa-info-circle" style="color:#B4570A"></i></h3>{{ portfolio-item.description_en }}</br>
+      {{ portfolio-item.description_en }}</br>
     </div>
   </div>
   {% endfor %}

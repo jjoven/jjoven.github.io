@@ -1,5 +1,5 @@
 ---
-title: My Favorite Productivity Tools
+title: My Favorite Google Suite Tips and Hacks
 description: An overview of the tools that make my life easier.
 author: Jess Young
 layout: post
@@ -9,9 +9,5 @@ ref: favorite-productivity-tools
 published: false
 tags:
   - digital-nomad
-  - productivity
+  - technology
 ---
-AHK
-Trello
-IFTTT
-Google Suite

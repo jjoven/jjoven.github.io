@@ -5,7 +5,7 @@ author: Jess Young
 layout: post
 permalink: /organizing-ultimate-adventure-mobile/
 postHero: /assets/images/organizing-ultimate-adventure-mobile/movil-foliage.jpg
-ref:
+ref: organizing-ultimate-adventure-mobile
 tags:
   - digital-nomad
   - outdoors

@@ -53,9 +53,6 @@ t:
     portfolio:
       name: "Portfolio"
       url: "/portfolio/"
-    blog:
-      name: "Blog"
-      url: "/blog/"
     running:
       name: "Running"
       url: "/running/"

@@ -306,8 +306,8 @@ textarea {
   text-shadow: 2px 2px 8px #222;
 }
 .hero-about {
-  background-image: url(/assets/images/baguales.jpg);
-  background-position: center 80%;
+  background-image: url(/assets/images/fjords.jpg);
+  background-position: center 50%;
   height: 70vh;
 }
 .hero-contact, .hero-other {

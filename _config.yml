@@ -50,9 +50,9 @@ t:
     about:
       name: "CV"
       url: "/about/"
-    portfolio:
-      name: "Portfolio"
-      url: "/portfolio/"
+    #portfolio:
+      #name: "Portfolio"
+      #url: "/portfolio/"
     running:
       name: "Running"
       url: "/running/"
@@ -66,9 +66,9 @@ t:
       about:
         name: "CV"
         url: "/es/about/"
-      portfolio:
-        name: "Portafolio"
-        url: "/es/portfolio/"
+      #portfolio:
+        #name: "Portafolio"
+        #url: "/es/portfolio/"
       running:
         name: "Correr"
         url: "/es/running/"
